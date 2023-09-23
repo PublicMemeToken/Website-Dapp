@@ -1,7 +1,7 @@
 <p align="center">
   <a >
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/YZ11TPJ/Banner.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/m6H2WKR/PMT-1280x640-1.png">
       <img src="https://i.ibb.co/YZ11TPJ/Banner.png" height="256">
     </picture>
   </a>
