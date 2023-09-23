@@ -49,7 +49,7 @@ const Home: NextPage = () => {
   
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      
         
           
           <div className={styles.heroAssetFrame}>
@@ -59,15 +59,15 @@ const Home: NextPage = () => {
               height={320}
               alt="Home"
               quality={100}
-              className={styles.heroAsset}
+              
             />
           </div>
-          <div className={styles.heroBodyContainer}>
-            <div className={styles.heroBody}>
+          
+            
               <h1 className={styles.heroTitle}>
-                <span className={styles.heroTitleGradient}>
+                
                 WE ARE THE FUTURE OF 
-                </span>
+               
                 <br />
                 THE MEME MARKET.
               </h1>
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
                  is the first of its kind, a unique and innovative collective that builds bridges between <b>Publicity</b> and <b>Blockchain</b>.
               </p>
               
-              <div className={styles.heroCtaContainer}>
+              
               <div className={styles.slider}>
             <div className={styles.slideTrack}>
         
@@ -101,17 +101,18 @@ const Home: NextPage = () => {
         {Banner7}
         {Banner9}
         
-      
-    </div>
-              </div>
-              
-            </div>
-          </div>
-          
-        </div>
       </div>
       
     </div>
+    <Image style={{ paddingBottom: 35 }}
+              src="/logo4.png"
+              width={320}
+              height={320}
+              alt="Home"
+              quality={100}
+              
+            />
+ </div>    
   );
 };
 
