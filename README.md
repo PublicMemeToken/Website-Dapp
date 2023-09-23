@@ -24,25 +24,5 @@
   </a>
 </p>
 
-## dApp 
-<p align="center">
-  <a href="https://dapp.timetravelapes.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/18nwCbM/homepage-snapshot.png">
-      <img src="https://i.ibb.co/18nwCbM/homepage-snapshot.png" height="300">
-    </picture>
-    
-  </a>
-</p>
 
-## Homepage web2.0 
-<p align="center">
-  <a href="https://timetravelapes.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/tMJZB5M/homepage-snapshot2.png">
-      <img src="https://i.ibb.co/tMJZB5M/homepage-snapshot2.png" width="800">
-    </picture>
-    
-  </a>
-</p> 
  
