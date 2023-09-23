@@ -1,15 +1,19 @@
 
-  .container {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-   
-    
-    
-  }
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 24px;
+ 
+  
+  border-radius: 12px;
+  
+  
+  
+}
   .divider {
     width: 50%;
     border-color: rgba(255, 255, 255, 0);
@@ -19,15 +23,15 @@
 
 
 .content {
-  max-width: 1204px;
+  max-width: 600px;
   width: 100%;
   margin-left: 6px;
   margin-right: 6px;
 }
 
 .hero {
-  padding-bottom:1px;
-  padding-top: 88px;
+  padding-bottom:10px;
+  padding-top: 8px;
   
   
 }
@@ -52,9 +56,11 @@
 .heroAssetFrame {
   display: flex;
   justify-content: center;
-  margin: 24px auto 0;
-  padding: 2em;
+  margin: 10px auto 0;
+  padding: 1em;
   overflow: hidden;
+  padding-top: 20px;
+  padding-left:15px;
   
 }
 
@@ -65,7 +71,7 @@
 
 .heroBodyContainer {
   width: 100%;
-  padding: 0 32px;
+  padding: 0 3px;
   margin: 0 auto;
 }
 
@@ -74,11 +80,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .heroTitle {
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: -80px;
   color: #fafafa7d;
   font-size: Min(12vw, 40px);
   font-style: normal;
@@ -96,8 +103,6 @@
 
 .heroSubtitle {
   max-width: 640px;
-  margin-top: 10rem;
-  margin-bottom: 50px;
   color: hsl(0, 0%, 4%);
   font-size: Min(3.8vw, 20px);
   letter-spacing: 0.3px;
@@ -107,6 +112,7 @@
   transform: translateY(5px);
   background-color: #9c4afa58;
     border-radius: 12px;
+    margin-bottom: 2rem;
 }
 
 .heroCtaContainer {
@@ -114,7 +120,7 @@
   flex-direction: row;
   align-items: center;
   gap: 16px;
-  margin-top: -18rem;
+  margin-top: 9rem;
 }
 
 .codeButton {
@@ -312,12 +318,13 @@
   }
 }
 .slider {
-  margin-top: 650px;
-  margin-left: -250px;
+  
+  padding-top: 1rem;
   overflow: hidden;
-  position: fixed;
-  width: 500px;
-  height: 50px;
+  position: relative;
+  width: 300px;
+  height: 150px;
+  margin-bottom: -5rem;
   
   
   
@@ -328,9 +335,9 @@
 .slider::before {
   content: "";
   height: 100px;
-  position: absolute;
+ 
   width: 200px;
-  z-index: 2;
+  z-index: 1;
   
   
 }
@@ -340,7 +347,7 @@
   height: 100px;
   position: absolute;
   width: 100px;
-  z-index: 2;
+  z-index: 1;
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
