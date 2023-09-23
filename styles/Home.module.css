@@ -312,13 +312,14 @@
   }
 }
 .slider {
-  
-  margin-bottom: 5rem;
+  margin-top: 650px;
+  margin-left: -250px;
   overflow: hidden;
-  position: relative;
-  width: 1000px;
+  position: fixed;
+  width: 500px;
   height: 50px;
-  margin-top: 19rem;
+  
+  
   
 
   /* before */
@@ -330,8 +331,7 @@
   position: absolute;
   width: 200px;
   z-index: 2;
-  left: 0;
-  top: 0;
+  
   
 }
 
