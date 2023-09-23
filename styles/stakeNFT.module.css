@@ -1,0 +1,240 @@
+.container {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  padding: 1 24px;
+  margin-left: 50px;
+  
+  border-radius: 12px;
+  
+  
+  
+}
+
+  
+  .h1 {
+    margin-bottom: 0px;
+    background-color: rgba(245, 245, 245, 0.563);
+    border-radius: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: black;
+
+  }
+  
+  .explain {
+    font-size: 1.125rem;
+    max-width: 1200px;
+  }
+  
+  .divider {
+    width: 50%;
+    border-color: grey;
+    opacity: 0.25;
+  }
+  .divider1 {
+    width: 50%;
+    border-color: grey;
+    opacity: 0.25;
+  }
+  
+  .smallDivider {
+    width: 25%;
+    border-color: grey;
+    margin-top: 64px;
+    opacity: 0.25;
+  }
+  
+  .nftBoxGrid {
+    width: 400px;
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    height: ;
+    flex-wrap: wrap;
+    
+
+
+  }
+  .nftBoxGrid1 {
+    width: 40px;
+    border-radius: 16px;
+    
+   
+    min-height: 200px;
+    padding: 16px;
+    
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+  }
+
+  
+  .nftBox {
+    border-radius: 16px;
+    border: 1px solid grey;
+    width: 19%;
+    height: 500px;
+    padding: 16px;
+    background-color: rgba(240, 248, 255, 0.011);
+    color: black;
+    margin-bottom: 5rem;
+    
+  }
+  .nftBox1 {
+    border-radius: 16px;
+    border: 1px solid grey;
+    width: 19%;
+    height: 500px;
+    padding: 16px;
+    background-color: rgba(240, 248, 255, 0.011);
+    color: black;
+    margin-bottom: 1rem;
+    width: 370px;
+  }
+  
+  
+  .optionSelectBox {
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    width: 48%;
+    min-height: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+  }
+  
+  .selectBoxTitle {
+    font-size: 1.75rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+  }
+  
+  
+  .selectBoxDescription {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 0px;
+  }
+  
+  /* Between 1200 and 800 */
+  @media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .nftBox {
+      width: 49%;
+      margin-top: 16px;
+    }
+    
+  }
+  
+  /* beneath 800
+  */
+  @media only screen and (max-width: 10000px) {
+    .nftBoxGrid {
+      justify-content: center;
+    }
+    .nftBox {
+      width: 90%;
+      margin-top: 16px;
+    }
+    .nftBoxGrid1{
+      width: 80%;
+      margin-top: 16px;
+    }
+    .optionSelectBox {
+      width: 90%;
+      margin-top: 16px;
+    }
+  }
+  
+  .tokenGrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    width: 1600px;
+    max-width: 95vw;
+    flex-wrap: wrap;
+    margin: 16px 0;
+  }
+  
+  .tokenItem {
+    width: 35%;
+    height: 120px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    gap: 16px;
+    background-color: rgba(240, 248, 255, 0.755);
+  }
+  
+  .tokenLabel {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.7);
+  }
+  
+  /* Second tokenLabel item */
+  
+  .tokenValue {
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  /* On Mobile, make tokenGrid 100% width */
+  @media only screen and (max-width: 850px) {
+    .tokenItem {
+      width: 90%;
+      margin-top: 12px;
+    }
+  }
+  
+  /* Screen less than 630, then hide .center */
+  
+  
+  .spacerTop {
+    margin-top: 16px;
+  }
+  
+  .bigSpacerTop {
+    margin-top: 32px;
+  }
+  
+  .spacerBottom {
+    margin-bottom: 16px;
+  }
+  
+  .detailPageHr {
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  
+  .nftMedia {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 15px;
+  }

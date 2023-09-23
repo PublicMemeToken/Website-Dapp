@@ -1,0 +1,38 @@
+{
+  "name": "boredmeme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@thirdweb-dev/react": "^3",
+    "@thirdweb-dev/sdk": "^3",
+    "ethers": "5",
+    "mdb-react-ui-kit": "^6.3.0",
+    "next": "^13",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-fontawesome": "^1.7.1",
+    "react-footer": "^0.0.0",
+    "react-hot-toast": "^2.4.1",
+    "react-responsive-modal": "^6.4.2",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.22",
+    "eslint": "8.11.0",
+    "eslint-config-next": "^13",
+    "typescript": "5.2.2"
+  }
+}

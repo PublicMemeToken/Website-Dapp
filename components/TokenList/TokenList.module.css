@@ -1,0 +1,162 @@
+.TokenList{
+    position: fixed;
+    width: 20rem;
+    border-radius: .5rem;
+    background-color: rgba(131, 131, 131, 0.772);
+    margin-top: 0rem;
+    right: 18.5rem;
+    top: 5rem;
+    padding: 1rem;
+    z-index: 111111111;
+}
+
+.TokenList_title{
+    width: 100%;
+    padding: .2rem 1rem;
+    font-weight: 900;
+    line-height: 0;
+    color: rgba(131, 131, 131, 0.299);
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.TokenList_close{
+    position: absolute;
+    right: .5rem;
+    cursor: pointer;
+    top: -0.50rem;
+    z-index: 111111111;
+}
+
+.TokenList_box{
+    position: fixed;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(135, 8, 253);
+}
+
+.TokenList_box_info{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.TokenList_box_info p span{
+    font-weight: 900;
+    color: rgb(255, 0, 221);
+    margin-right: .5rem;
+}
+
+.TokenList_box_info_symbol{
+    background-color: rgb(135, 8, 253);
+    padding: .5rem;
+    border-radius: .5rem;
+    color: rgb(253, 154, 240);
+    font-weight: 700;
+}
+.mainButton3 {
+    cursor: pointer;
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    font-weight: 600;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform;
+    transition-duration: 200ms;
+    height: 2rem;
+    min-width: 2rem;
+    font-size: 0.95rem;
+    background: #e5e5ea;
+    background-image: radial-gradient( #002e4f 10%, #9d4afa 100%) !important;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    text-align: center;
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+    margin-left: 4.5rem;
+  }
+  
+  .mainButton3:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+  .mainButton2 {
+    cursor: pointer;
+    display: inline-flex;
+    appearance: none;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    font-weight: 600;
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform;
+    transition-duration: 200ms;
+    height: 2rem;
+    min-width: 2rem;
+    font-size: 0.95rem;
+    background: #e5e5ea;
+    background-image: radial-gradient( #002e4f 10%, #9d4afa 100%) !important;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    text-align: center;
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+    margin-left: 19rem;
+  }
+  
+  .mainButton2:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+
+  .mainButton1 {
+    margin-left: 17.7rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .mainButton {
+    margin-left: 30.7rem;
+    margin-top: -4rem;
+  }
+
+@media only screen and (max-width: 35em) {
+    .TokenList{
+        top: 6rem;
+        left: 4rem;
+        width: 70%;
+    }
+    .TokenList_close{
+        right: .5rem;
+    }
+    
+    .mainButton3{
+        margin-left: 3rem;
+      }
+    .mainButton{
+        margin-left: 110px;
+        margin-top: 30px;
+      }
+    
+}
+
+@media only screen and (min-width: 35em) and (max-width:70em) {
+    .TokenList{
+        top: 6rem;
+        left: 2rem;
+        width: 90%;
+    }
+    .TokenList_close{
+        right: .5rem;
+    }
+}

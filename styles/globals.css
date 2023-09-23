@@ -1,0 +1,247 @@
+html,
+body, div{
+  
+ margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+footer{
+  position:fixed;
+  bottom:0;
+  display:block;  
+  width:100%
+  
+}
+p{
+  color: #000000;
+}
+hr{
+  display: block;
+unicode-bidi: isolate;
+margin-block-start: 0.5em;
+margin-block-end: 0.5em;
+margin-inline-start: auto;
+margin-inline-end: auto;
+overflow: hidden;
+border-style: inset;
+border-width: 1px;
+}
+a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: transparent !important;
+  color: rgb(243, 246, 249) !important;
+  background: radial-gradient(#002e4f 10%, #9d4afa 100%) !important;
+  height: 50px;
+  width: 220px;
+  border: 1px solid transparent;
+  border-radius: 36px !important;
+  padding: 6px 16px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: medium;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(64, 156, 255);
+  border-color: rgb(255, 255, 255);
+  color: rgb(130, 189, 249);
+}
+body {
+  color: #e7e8e8;
+  background: linear-gradient(#002e4f 45%, #9d4afa 65%, #002e4f 100%);
+  z-index: 1;
+  height: 670px;
+}
+a {
+  color: inherit;
+}
+.item1 {
+  border: none;
+  background-color: inherit;
+  color: #ffffff;
+  padding-left: 0px;
+  padding-right: 1px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  cursor: pointer;
+  
+}
+.item1:hover {
+  text-decoration: none;
+  color: #9d4afa;
+}
+.item1:focus {
+  outline: 0;
+}
+.item2 {
+  background: rgba(49, 49, 54, 0.993);
+  color: rgb(190, 190, 190);
+  margin: 1px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3 {
+  font-size: 20px;
+  background: rgb(49, 49, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item3:hover {
+  background-color: #3253f5;
+  transition: 0.4s;
+}
+.item4 {
+  font-size: 20px;
+  background: rgb(49, 49, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item4:hover {
+  background-color: #7e1af9;
+  transition: 0.4s;
+}
+.item5 {
+  font-size: 20px;
+  background: rgb(49, 49, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item5:hover {
+  background-color: #020202;
+  transition: 0.4s;
+}
+.item6 {
+  font-size: 20px;
+  background: rgb(49, 49, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item6:hover {
+  background-color: #020202;
+  transition: 0.4s;
+}
+
+.footer-container {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(49, 49, 54);
+  font-size: 15px;
+  width: 100%;
+  height: 3.7rem;
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr 1fr 1fr 1fr;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+
+  .item1 {
+      font-size: 9px;
+      padding-left: 8px;
+  }
+  .item2 {
+      font-size: 10px;
+  }
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+      font-size: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .item1 {
+      font-size: 9px;
+      padding-left: 8px;
+  }
+  .item2 {
+      font-size: 9px;
+  }
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+      font-size: 14px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .item1 {
+      font-size: 9px;
+      padding-left: 8px;
+  }
+  .item2 {
+      font-size: 11px;
+  }
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+      font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .item1 {
+      font-size: 10px;
+      padding-left: 8px;
+  }
+  .item2 {
+      font-size: 13px;
+  }
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+      font-size: 18px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .item1 {
+      font-size: 12px;
+      padding-left: 8px;
+  }
+  .item2 {
+      font-size: 15px;
+  }
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+      font-size: 20px;
+  }
+}
