@@ -10,7 +10,7 @@
 
 <p align="center">
   <a aria-label="Vercel logo" href="https://twitter.com/publicmemetoken">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/publicmemetoken?style=social
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/publicmemetoken
 ">
   </a>
   <a aria-label="NPM version" href="https://www.npmjs.com/package/next">
