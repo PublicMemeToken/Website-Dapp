@@ -54,7 +54,7 @@ const Home: NextPage = () => {
           
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/logo4.png"
+              src="/logo1.png"
               width={320}
               height={320}
               alt="Home"
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
       
     </div>
     <Image style={{ paddingBottom: 35 }}
-              src="/logo4.png"
+              src="/logo.png"
               width={320}
               height={320}
               alt="Home"
