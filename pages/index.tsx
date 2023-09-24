@@ -104,7 +104,7 @@ const Home: NextPage = () => {
       </div>
       
     </div>
-    <Image style={{ paddingBottom: 35 }}
+    <Image style={{ paddingBottom: 55 }}
               src="/logo.png"
               width={320}
               height={320}
