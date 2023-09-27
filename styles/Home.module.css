@@ -410,4 +410,87 @@
   width: 250px;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px){
+  .slider {
+    
+    padding-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    margin-bottom: -5rem;
+    
+    
+    
+  
+    /* before */
+  }
+  }
 
+@media only screen and (min-width: 600px){
+  .slider {
+    
+    padding-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 150px;
+    margin-bottom: -5rem;
+    
+    
+    
+  
+    /* before */
+  }
+  }
+
+@media only screen and (min-width: 768px){
+  .slider {
+    
+    padding-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+    height: 150px;
+    margin-bottom: -5rem;
+    
+    
+    
+  
+    /* before */
+  }
+  }
+
+@media only screen and (min-width: 992px){
+  .slider {
+    
+    padding-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 150px;
+    margin-bottom: -5rem;
+    
+    
+    
+  
+    /* before */
+  }
+  }
+
+@media only screen and (min-width: 1200px){
+.slider {
+  
+  padding-top: 1rem;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+  height: 150px;
+  margin-bottom: -5rem;
+  
+  
+  
+
+  /* before */
+}
+}
