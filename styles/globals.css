@@ -146,7 +146,7 @@ a {
   align-items: center;
 }
 .item6:hover {
-  background-color: #020202;
+  background: linear-gradient(#fe3a7bdb  30%, #f0bb0d  75%);
   transition: 0.4s;
 }
 
