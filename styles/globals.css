@@ -67,7 +67,7 @@ button:hover {
 }
 body {
   color: #e7e8e8;
-  background: linear-gradient(#002e4f 45%, #9d4afa 65%, #002e4f 100%);
+  background: linear-gradient(#4B2D0DDB  30%, #23382D  75%, #4B2D0DDB 100%);
   z-index: 1;
   height: 700px;
 }
