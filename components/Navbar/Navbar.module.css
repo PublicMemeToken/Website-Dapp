@@ -44,7 +44,7 @@
 
 
 .link {
-  color: #9d4afa;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2px;
@@ -54,10 +54,10 @@
 }
 
 .link:hover {
-  background-color: rgba(240, 248, 255, 0.205);
+  background-color: #23382d73;
   color: rgba(255, 255, 255, 1);
   border-radius: 16px;
-    border: 1px solid rgb(131, 131, 138);
+    border: 1px solid #23382D;
     padding: 0.5rem;
   
 }
