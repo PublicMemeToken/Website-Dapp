@@ -9,21 +9,27 @@ const PrivacyModal = (props) => {
         <div>
             
         <p >
-            
-        <Image src="/tokenomics.png" width={640} height={320} alt="Platin Membership" />
+        <br></br>​<br></br>
+        PHASE 1: FOUNDATION​<br></br>​<br></br>
+🚀 Smart Contract Development:Secure and audited smart contract for PMT token to ensure transparency and trust.
+​<br></br>​<br></br>
+🌐 Community Building: Telegram,  Twitter - Get ready for the hype train with a strong and engaged PMT community.
+​​<br></br>​<br></br>
+📣 Branding and Marketing: Spread the word about Public Meme Token with a comprehensive marketing campaign. Let's go viral!
+​​<br></br>​<br></br>
+💥 Merchandise and Swag: Rock the PMT style with branded merchandise and swag. Show off your Public Meme Token pride!
         </p>
         </div>
     );
     
     return (
         <>
-            <button style={{
-          width:149,
-          color: "white" ,
+            <p style={{
+          
         }}
-        className="item1" onClick={() => setOpen(true)}>
-                PMT Tokenomics
-            </button>
+        className="" onClick={() => setOpen(true)}>
+            Phase 1 
+            </p>
             <Modal open={open} onClose={() => setOpen(false)} center>
                 
                 {policyText}
