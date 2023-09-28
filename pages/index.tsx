@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import PrivacyModal1 from "../components/ModalView/PrivacyModal1";
 
 const Home: NextPage = () => {
   const router = useRouter();
@@ -62,7 +62,11 @@ const Home: NextPage = () => {
               
             />
           </div>
-          
+          <div className={styles.button}>
+            
+            <PrivacyModal1 />
+            
+        </div>
             
               <h1 className={styles.heroTitle}>
                 
@@ -86,7 +90,7 @@ const Home: NextPage = () => {
               </p>
               <p className={styles.heroSubtitle1}>
                               
-                  Loyalty NFTs are special tokens created by renowned and talented artists who have contributed their exceptional artistry to the PMT ecosystem. These NFTs are not only valuable pieces of digital art but also function as a symbol of loyalty and support for the PMT community.
+                  <b>Loyalty NFTs</b><br></br> are special tokens created by renowned and talented artists who have contributed their exceptional artistry to the PMT ecosystem.<br></br> These NFTs are not only valuable pieces of digital art but also function as a symbol of loyalty and support for the PMT community.
 
               </p>
               
@@ -117,6 +121,7 @@ const Home: NextPage = () => {
               quality={100}
               
             />
+        {false && <PrivacyModal1 click={true} />}
  </div>    
   );
 };
