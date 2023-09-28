@@ -76,7 +76,7 @@ const Home: NextPage = () => {
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://www.x.com/"
+                  href="https://www.x.com/publicmemetoken"
                   target="_blank"
                 >
                   Public MEME Token 
