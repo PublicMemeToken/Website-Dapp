@@ -81,9 +81,14 @@ const Home: NextPage = () => {
                 >
                   Public MEME Token 
                 </Link>{" "}
-                 is the first of its kind, a unique and innovative collective that builds bridges between <b>Publicity</b> and <b>Blockchain</b>.
+                <br></br>is designed to integrate the world of memes and digital art,<br></br> providing a platform where users can not only engage with their favorite artists<br></br> but also stake their loyalty NFTs (Non-Fungible Tokens) to earn PMT tokens.
+
               </p>
-              
+              <p className={styles.heroSubtitle1}>
+                              
+                  Loyalty NFTs are special tokens created by renowned and talented artists who have contributed their exceptional artistry to the PMT ecosystem. These NFTs are not only valuable pieces of digital art but also function as a symbol of loyalty and support for the PMT community.
+
+              </p>
               
               <div className={styles.slider}>
             <div className={styles.slideTrack}>
