@@ -102,17 +102,32 @@
 }
 
 .heroSubtitle {
-  max-width: 640px;
+  max-width: 840px;
   color: hsl(0, 0%, 4%);
   font-size: Min(3.8vw, 20px);
   letter-spacing: 0.3px;
   line-height: 140%;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 6rem;
   transform: translateY(5px);
   background-color: #a19fa358;
     border-radius: 12px;
     margin-bottom: 2rem;
+    padding: 2px;
+}
+.heroSubtitle1 {
+  max-width: 840px;
+  color: hsl(0, 0%, 4%);
+  font-size: Min(3.8vw, 20px);
+  letter-spacing: 0.3px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: -1rem;
+  transform: translateY(5px);
+  background-color: #a19fa358;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    padding: 2px;
 }
 
 .heroCtaContainer {
