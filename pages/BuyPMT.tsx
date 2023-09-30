@@ -13,9 +13,11 @@ import {
   import { useMemo, useState } from "react";
   import styles from "../styles/buyerc.module.css";
   import { parseIneligibility } from "../util/parseIneligibility";
-  import Particles from '../components/Particles';
+  import React from "react";
+  import { Line } from 'rc-progress';
   
-  const BuyARTCM = () => {
+  
+  const BuyPMT = () => {
     const tokenAddress = "0x6da3d85BA6aCE6Dc288d7ac3765D9896a5CebE7D";
     const { contract } = useContract(tokenAddress, "token-drop");
     const address = useAddress();
@@ -202,7 +204,8 @@ import {
       priceToMint,
       quantity,
     ]);
-  
+    
+    
     return (
       <div className={styles.container}>
         {(claimConditions.data &&
@@ -236,12 +239,16 @@ import {
               />
             )}
   
-            <h2 className={styles.title}>Public Meme Token </h2>
+            <h2 className={styles.title}>Public Meme Token<br></br>
+              Pre-Sale Phase 1 starts soon! </h2>
             <p className={styles.explain}>
-              Presale Phase 1/3  {" "}
+              Presale Phase 1/30  {" "}
               <span >$PMT</span>
               
+              
             </p>
+            
+            <Line percent={10} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
             
           </>
         )}
@@ -265,6 +272,7 @@ import {
             value={quantity}
             className={`${styles.textInput} ${styles.noGapBottom}`}
           />
+          
           <Web3Button
             
             
@@ -282,4 +290,4 @@ import {
     );
   };
   
-  export default BuyARTCM;
+  export default BuyPMT;
