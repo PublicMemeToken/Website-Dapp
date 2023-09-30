@@ -14,7 +14,7 @@ import {
   import styles from "../styles/buyerc.module.css";
   import { parseIneligibility } from "../util/parseIneligibility";
   import React from "react";
-  import { Line } from 'rc-progress';
+  import { Line} from 'rc-progress';
   
   
   const BuyPMT = () => {
