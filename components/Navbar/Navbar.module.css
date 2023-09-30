@@ -37,7 +37,7 @@
 
 .navMiddle {
   display: flex;
-  width: 1vw;
+  width: 40vw;
   flex-direction: row;
   align-items: center;
   gap: 24px;
