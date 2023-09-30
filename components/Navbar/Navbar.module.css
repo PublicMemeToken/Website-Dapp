@@ -32,14 +32,22 @@
   align-items: center;
   gap: 12px;
   transition: all 0.15s ease-in-out;
+  margin-left: -200px;
 }
 
 .navMiddle {
   display: flex;
-  margin-left: 12px;
+  width: 1vw;
   flex-direction: row;
   align-items: center;
   gap: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  transition: color 0.3s ease-in-out;
+  justify-content: space-between;
 }
 
 
@@ -51,6 +59,7 @@
   line-height: 16px;
   transition: color 0.3s ease-in-out;
   justify-content: space-between;
+  
 }
 
 .link:hover {
@@ -69,10 +78,11 @@
 
 .navRight {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 16px;
   align-items: center;
   justify-content: center;
+  width: 20vw;
 }
 
 .profileImage {
@@ -95,30 +105,303 @@
 }
 
 
-/* Sreens less than 720px */
-@media (max-width: 700px) {
+
+
+@media only screen and (max-width: 400px) {
   .navMiddle {
     display: flex;
-    margin-left: 12px;
+    margin-left:-13px;
     flex-direction: row;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
   }
   
-}
-
-@media only screen and (max-width: 70em) {
-  .navMiddle {
+  .navContainer {
+    width: 100%;
     display: flex;
-    margin-left: 1px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -8px;
   }
   
-  .profileImage {
-    display: none;
+  
+}
+@media only screen and (min-width: 400px) {
+  .navMiddle {
+    display: flex;
+    margin-left:1px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
   }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin-right: 10px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -12px;
+  }
+  
+  
+}
 
+@media only screen and (min-width: 625px) {
+  .navMiddle {
+    display: flex;
+    margin-left:130px;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -8px;
+  }
+  
+  
+}
+@media only screen and (min-width: 800px) {
+  .navMiddle {
+    display: flex;
+    margin-left:200px;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -8px;
+  }
+  
+  
+}
+@media only screen and (min-width: 1024px) {
+  .navMiddle {
+    display: flex;
+    margin-left:300px;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -8px;
+  }
+  
+  
+}
+@media only screen and (min-width: 1440px) {
+  .navMiddle {
+    display: flex;
+    margin-left:470px;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin-right: -60px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -45px;
+  }
+  
+  
+}
+@media only screen and (min-width: 2000px) {
+  .navMiddle {
+    display: flex;
+    margin-left:550px;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin-right: -320px;
+  }
+  
+  .navContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+    margin-left: -180px;
+  }
+  
   
 }
