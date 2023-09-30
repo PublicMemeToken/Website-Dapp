@@ -15,6 +15,8 @@ import {
   import { parseIneligibility } from "../util/parseIneligibility";
   import React from "react";
   import { Line } from 'rc-progress';
+  import Image from "next/image";
+
   
   
   const BuyPMT = () => {
@@ -207,6 +209,7 @@ import {
     
     
     return (
+      <div >
       <div className={styles.container}>
         {(claimConditions.data &&
           claimConditions.data.length > 0 &&
@@ -232,7 +235,7 @@ import {
               <img
                 src={contractMetadata?.image}
                 alt={contractMetadata?.name!}
-                width={200}
+                width={300}
                 height={100}
                 style={{objectFit: "contain" }}
                 
@@ -242,7 +245,7 @@ import {
             <h1 className={styles.title}>Public Meme Token </h1>
             <h3 className={styles.title1}>Pre-Sale Phase 1 starts soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 1/30  {" "}
+              Presale Phase 1/30  {" "}
               <span >$PMT</span>
               
               
@@ -289,6 +292,18 @@ import {
           </Web3Button>
         </div>
         
+          
+      </div>
+      <div className={styles.dog}>
+      <Image  style={{ margin:0  }}
+              src="/logo.png"
+              width={320}
+              height={320}
+              alt="Home"
+              quality={100}
+              
+            />
+            </div>
       </div>
     );
   };
