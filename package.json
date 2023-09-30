@@ -21,6 +21,7 @@
     "mdb-react-ui-kit": "^6.3.0",
     "next": "^13",
     "nextjs-progressbar": "^0.0.16",
+    "rc-progress": "^3.5.1",
     "react": "^18.2",
     "react-dom": "^18.2",
     "react-fontawesome": "^1.7.1",
