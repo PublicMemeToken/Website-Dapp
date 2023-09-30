@@ -67,7 +67,7 @@ button:hover {
 }
 body {
   color: #e7e8e8;
-  background: linear-gradient(#4B2D0DDB  30%, #23382D  75%, #4B2D0DDB 100%);
+  background: linear-gradient(#4B2D0DDB  10%, #23382D  90%);
   z-index: 1;
   height: 1900px;
 }
@@ -126,6 +126,7 @@ a {
 }
 .item5 {
   font-size: 20px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,6 +137,7 @@ a {
 }
 .item6 {
   font-size: 20px;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
