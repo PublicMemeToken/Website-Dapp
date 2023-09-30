@@ -14,6 +14,7 @@ import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
 import Head from "next/head";
 import  Footer  from "../components/Footer/Footer"
+
 // This is the chain your dApp will work on.
 const activeChain = "binance";
 
@@ -38,7 +39,7 @@ function MyApp({ Component, pageProps }) {
         color="var(--color-tertiary)"
         startPosition={0.3}
         stopDelayMs={200}
-        height={3}
+        height={-30}
         showOnShallow={true}
       />
       
