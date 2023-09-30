@@ -18,7 +18,7 @@ import {
   
   
   const BuyPMT = () => {
-    const tokenAddress = "0x6da3d85BA6aCE6Dc288d7ac3765D9896a5CebE7D";
+    const tokenAddress = "0xF69eC56CFD157801BBaC47e24540782B6Db94d29";
     const { contract } = useContract(tokenAddress, "token-drop");
     const address = useAddress();
     const [quantity, setQuantity] = useState(1);
