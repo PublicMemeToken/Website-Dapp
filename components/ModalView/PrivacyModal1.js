@@ -24,7 +24,7 @@ const PrivacyModal = (props) => {
     
     return (
         <>
-            <p style={{
+            <p style={{ color:"whitesmoke"
           
         }}
         className="" onClick={() => setOpen(true)}>
