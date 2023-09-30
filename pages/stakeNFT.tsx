@@ -19,6 +19,9 @@ import {
   tokenContractAddress,
 } from "../const/contractAddresses1";
 import styles from "../styles/stakeNFT.module.css";
+import Image from "next/image";
+
+
 
 const Stake: NextPage = () => {
   const address = useAddress();
@@ -145,12 +148,26 @@ const Stake: NextPage = () => {
                 >
                   Stake
                 </Web3Button>
+                
               </div>
+              
             ))}
           </div>
+          
         </>
       )}
+      <div >
+            <Image style={{ marginTop:150 }}
+              src="/logo.png"
+              width={320}
+              height={320}
+              alt="Home"
+              quality={100}
+              
+            />
+          </div>
     </div>
+    
   );
 };
 
