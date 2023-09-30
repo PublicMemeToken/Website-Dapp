@@ -14,7 +14,7 @@ import {
   import styles from "../styles/buyerc.module.css";
   import { parseIneligibility } from "../util/parseIneligibility";
   import React from "react";
-  import { Line} from 'rc-progress';
+  import { Line } from 'rc-progress';
   
   
   const BuyPMT = () => {
@@ -239,8 +239,8 @@ import {
               />
             )}
   
-            <h2 className={styles.title}>Public Meme Token<br></br>
-              Pre-Sale Phase 1 starts soon! </h2>
+            <h1 className={styles.title}>Public Meme Token </h1>
+            <h3 className={styles.title1}>Pre-Sale Phase 1 starts soon! </h3>
             <p className={styles.explain}>
               Presale Phase 1/30  {" "}
               <span >$PMT</span>
@@ -248,7 +248,10 @@ import {
               
             </p>
             
-            <Line percent={10} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
+            <p className={styles.explain}>
+              Sold 1%
+            </p>
+            <Line percent={1} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
             
           </>
         )}
