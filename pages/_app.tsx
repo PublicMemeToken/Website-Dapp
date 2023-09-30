@@ -15,7 +15,7 @@ import NextNProgress from "nextjs-progressbar";
 import Head from "next/head";
 import  Footer  from "../components/Footer/Footer"
 // This is the chain your dApp will work on.
-const activeChain = "binance";
+const activeChain = "binance-mainnet";
 
 function MyApp({ Component, pageProps }) {
   return (
