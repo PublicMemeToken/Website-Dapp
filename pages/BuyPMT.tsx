@@ -249,9 +249,9 @@ import {
             </p>
             
             <p className={styles.explain}>
-              Sold 1%
+              Sold 0%
             </p>
-            <Line percent={1} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
+            <Line percent={0} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
             
           </>
         )}
