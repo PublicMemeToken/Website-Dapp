@@ -47,7 +47,7 @@ button {
   justify-content: center;
   border-color: transparent !important;
   color: rgb(243, 246, 249) !important;
-  background: radial-gradient(#4B2D0DDB  5%, #23382D  100%) !important;
+  background: radial-gradient(#23382D  25%, #fbbe7c  100%) !important;
   height: 50px;
   width: 220px;
   border: 1px solid transparent;
