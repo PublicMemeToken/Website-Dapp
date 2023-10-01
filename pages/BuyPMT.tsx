@@ -246,13 +246,13 @@ import {
             <h3 className={styles.title1}>Pre-Sale Phase 1 starts soon! </h3>
             <p className={styles.explain}>
               Presale Phase 1/30  {" "}
-              <span >$PMT</span>
+              
               
               
             </p>
             
             <p className={styles.explain}>
-              Sold 0%
+             <span >Sold </span> 0%
             </p>
             <Line percent={0} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
             
