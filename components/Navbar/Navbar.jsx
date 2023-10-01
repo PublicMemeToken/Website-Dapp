@@ -41,7 +41,7 @@ export function Navbar() {
 
           <div className={styles.navMiddle}>
             
-          <Link href="https://publicmemetoken.gitbook.io/public-meme-token-docs/" target="_blank" className={styles.link}>
+          <Link href="https://docs.publicmemetoken.xyz/" target="_blank" className={styles.link}>
               Docs
             </Link>
             
