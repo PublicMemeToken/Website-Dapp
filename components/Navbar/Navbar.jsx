@@ -13,6 +13,7 @@ import {
   bloctoWallet,
   magicLink,
   frameWallet,
+  darkTheme,
   rainbowWallet,
   phantomWallet, useAddress } from "@thirdweb-dev/react";
 import Image from "next/image";
@@ -64,7 +65,13 @@ export function Navbar() {
             
             
           <ConnectWallet
-        theme={"dark"}
+        theme={darkTheme({
+          accentText: "",
+          modalBg: "#4B2D0DDB",
+          dropdownBg: "#4B2D0DDB",
+          borderColor: "#ffcc94",
+          separatorLine: "#ffcc94",
+        })}
         modalTitle={"PMT WALLET"}
         modalSize={"wide"}
         welcomeScreen={{
