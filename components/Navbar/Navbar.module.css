@@ -319,10 +319,11 @@
   
   
 }
+
 @media only screen and (min-width: 1440px) {
   .navMiddle {
     display: flex;
-    margin-left:470px;
+    margin-left:300px;
     flex-direction: row;
     align-items: center;
     gap: 100px;
