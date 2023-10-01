@@ -80,11 +80,20 @@ const Stake: NextPage = () => {
       {!address ? (
         <ConnectWallet
         theme={"dark"}
-        modalTitle={"PMT Wallet"}
-        
-        auth={{ loginOptional: true }}
-        switchToActiveChain={true}
-        modalSize={"wide"} />
+        modalTitle={"PMT WALLET"}
+        modalSize={"wide"}
+        welcomeScreen={{
+          title: "Public Meme Token | $PMT",
+          img: {
+            src: "https://i.ibb.co/cbxC2h7/PMT-Frog-Dog.png",
+            width: 150,
+            height: 150,
+          },
+        }}
+        modalTitleIconUrl={
+          "https://i.ibb.co/5vy5cXF/favicon.png"
+        }
+      />
       ) : (
         <>
           <h2>Your Tokens</h2>
