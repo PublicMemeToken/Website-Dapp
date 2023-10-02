@@ -312,7 +312,7 @@ import {
           
       </div>
       <h1 style={{ color:"#fbbe7c" }}>PRESALE STARTS IN</h1>
-      <Countdown date={`${year}-11-11T00:00:00`} />
+      <Countdown date={`${year}-11-08T13:00:00`} />
       <div className={styles.dog}>
       
       <Image  style={{ margin:0  }}
