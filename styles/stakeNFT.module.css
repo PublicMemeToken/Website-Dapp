@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   width: 97.5vw;
-  padding: 1 24px;
-
+  padding: 0 24px;
+  
   
   border-radius: 12px;
   
@@ -17,11 +17,11 @@
   
   .h1 {
     margin-bottom: 0px;
-    background-color: rgba(245, 245, 245, 0.563);
+   
     border-radius: 12px;
     padding-right: 8px;
     padding-left: 8px;
-    color: black;
+    color:#fbbe7c;
 
   }
   
@@ -32,7 +32,7 @@
   
   .divider {
     width: 50%;
-    border-color: grey;
+    border-color: #fbbe7c;
     opacity: 0.25;
   }
   .divider1 {
@@ -84,7 +84,7 @@
   
   .nftBox {
     border-radius: 16px;
-    border: 1px solid grey;
+    border: 1px solid #fbbe7c;
     width: 19%;
     height: 500px;
     padding: 16px;
