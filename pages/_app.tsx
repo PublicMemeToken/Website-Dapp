@@ -14,6 +14,7 @@ import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
 import Head from "next/head";
 import  Footer  from "../components/Footer/Footer"
+import Favicon from '../components/Favicon';
 
 // This is the chain your dApp will work on.
 const activeChain = "binance";
@@ -54,6 +55,8 @@ function MyApp({ Component, pageProps }) {
           name="keywords"
           content="Public Meme Token, Buy BEP20, NFC Marketplace, NFT Auction, Dao "
         />
+         <meta charSet="utf-8" />
+        <Favicon/>
       </Head>
       
       <Navbar />
