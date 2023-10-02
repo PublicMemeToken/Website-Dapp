@@ -8,23 +8,16 @@ import {
     useContractMetadata,
     useTokenSupply,
     Web3Button,
-    
   } from "@thirdweb-dev/react";
   import { BigNumber, utils } from "ethers";
-  import { useMemo, useState, useEffect, useReducer } from "react";
+  import { useMemo, useState } from "react";
   import styles from "../styles/buyerc.module.css";
   import { parseIneligibility } from "../util/parseIneligibility";
   import React from "react";
   import { Line } from 'rc-progress';
   import Image from "next/image";
-  import Countdown from "../components/countdown"
+
   
-  const currentDate = new Date();
-    const year =
-      currentDate.getMonth() === 11 && currentDate.getDate() > 23
-        ? currentDate.getFullYear() + 1
-        : currentDate.getFullYear();
-   
   
   const BuyPMT = () => {
     const tokenAddress = "0xF69eC56CFD157801BBaC47e24540782B6Db94d29";
@@ -213,15 +206,11 @@ import {
       priceToMint,
       quantity,
     ]);
-
-    
     
     
     return (
       <div >
-       
       <div className={styles.container}>
-        
         {(claimConditions.data &&
           claimConditions.data.length > 0 &&
           activeClaimCondition.isError) ||
@@ -256,22 +245,18 @@ import {
             <h1 className={styles.title}>Public Meme Token </h1>
             <h3 className={styles.title1}>Pre-Sale Phase 1 starts soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 1 of 30  {" "}
+              Presale Phase 1/30  {" "}
               
               
               
             </p>
             
             <p className={styles.explain}>
-            <span >Sold </span> 0%
-              
+             <span >Sold </span> 0%
             </p>
-           
-
-            <Line  percent={0} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
+            <Line percent={0} strokeWidth={1} strokeColor="green" trailColor="grey" trailWidth={1} />
             
           </>
-          
         )}
   
         <hr className={styles.divider} />
@@ -294,7 +279,7 @@ import {
             className={`${styles.textInput} ${styles.noGapBottom}`}
           />
           
-          <Web3Button 
+          <Web3Button
             
             
             contractAddress={tokenAddress}
@@ -307,14 +292,9 @@ import {
           </Web3Button>
         </div>
         
-            
-         
           
       </div>
-      <h1 style={{ color:"#fbbe7c" }}>PRESALE STARTS IN</h1>
-      <Countdown date={`${year}-11-08T13:00:00`} />
       <div className={styles.dog}>
-      
       <Image  style={{ margin:0  }}
               src="/logo.png"
               width={320}
@@ -323,16 +303,8 @@ import {
               quality={100}
               
             />
-            
             </div>
-            
-            <div >
-           
-        </div>
-            
-            
       </div>
-      
     );
   };
   
