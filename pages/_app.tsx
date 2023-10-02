@@ -55,7 +55,8 @@ function MyApp({ Component, pageProps }) {
           name="keywords"
           content="Public Meme Token, Buy BEP20, NFC Marketplace, NFT Auction, Dao "
         />
-        
+        <meta charSet="utf-8" />
+          <Favicon/>
       </Head>
       
       <Navbar />
