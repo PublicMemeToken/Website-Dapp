@@ -4,8 +4,14 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import PrivacyModal1 from "../components/ModalView/PrivacyModal1";
+import Countdown from "../components/countdown"
 
 const Home: NextPage = () => {
+  const currentDate = new Date();
+    const year =
+      currentDate.getMonth() === 11 && currentDate.getDate() > 23
+        ? currentDate.getFullYear() + 1
+        : currentDate.getFullYear();
   const router = useRouter();
   const Banner9 = (
     <div className={styles.slide} role="button"
@@ -62,12 +68,9 @@ const Home: NextPage = () => {
               
             />
           </div>
-          <br></br>
-         
-            
-              
-              
-              
+          <h1 style={{ color:"#fbbe7c" }}>PRESALE STARTS IN</h1>
+           <Countdown date={`${year}-11-08T13:00:00`} />
+                   
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
@@ -80,21 +83,21 @@ const Home: NextPage = () => {
 
               </p>
               <br></br>
-              <br></br>
+              
               <p className={styles.heroSubtitle1}>
                               
                   <b>Loyalty NFTs</b><br></br> are special tokens created by renowned and talented artists who have contributed their exceptional artistry to the PMT ecosystem. These NFTs are not only valuable pieces of digital art but also function as a symbol of loyalty and support for the PMT community.
 
               </p>
               <br></br>
-              <br></br>
+              
               <p className={styles.heroSubtitle1}>
                               
                   <b>Staking NFTs</b><br></br> is an opportunity to earn PMT tokens as a reward.  This incentivizes users to hold onto these unique artworks and participate actively in the PMT ecosystem.The more loyalty NFTs a community member stakes, the greater the potential rewards they can earn.
 
               </p>
               
-              <Image style={{ marginTop:120 }}
+              <Image style={{ marginTop:-15 }}
               src="/logo.png"
               width={320}
               height={320}
