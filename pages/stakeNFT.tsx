@@ -149,11 +149,11 @@ const Stake: NextPage = () => {
                   metadata={nft.metadata}
                   className={styles.nftMedia}
                 />
-                <h3 style={{ marginLeft:90 }}>{nft.metadata.name}</h3>
+                <h3 style={{ marginLeft:0 }}>{nft.metadata.name}</h3>
                 <Web3Button
                   contractAddress={stakingContractAddress}
                   action={() => stakeNft(nft.metadata.id)}
-                  style={{ marginLeft:90 }}
+                  style={{ marginLeft:0 }}
                 >
                   Stake
                 </Web3Button>
