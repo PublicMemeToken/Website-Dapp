@@ -73,21 +73,30 @@
   }
   
   .container {
-    margin-top: 196px;
+    margin-top: 156px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 97.5vw;
+   
     padding: 0 24px;
     background-color: #ffffff81;
     border-radius: 12px;
     margin-left: 0.3rem;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     
     
     
   }
+
+  .container1 {
+  color: #000000;
+  background-color: #ffffff81;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  padding: 24px;
+  }
+  
   .timerText{
     font-size: 1.5em;
     color: #92c741;
@@ -107,7 +116,7 @@
       justify-content: center;
   }
   .dog{
-    margin-top: 19px;
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,6 +185,13 @@
     border-radius: 16px;
     width: 100%;
     padding: 16px;
+  }
+
+  .body  {
+    color: #e7e8e8;
+    background: linear-gradient(#5d3912  10%, #23382D  90%);
+    z-index: 1;
+    
   }
   
   
