@@ -145,7 +145,7 @@ const Stake: NextPage = () => {
             {ownedNfts?.map((nft) => (
               <div className={styles.nftBox} key={nft.metadata.id.toString()}>
                 <ThirdwebNftMedia
-                style={{ marginLeft:12 }}
+                style={{ marginLeft:0 }}
                   metadata={nft.metadata}
                   className={styles.nftMedia}
                 />
