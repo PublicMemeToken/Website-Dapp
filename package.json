@@ -23,6 +23,7 @@
     "nextjs-progressbar": "^0.0.16",
     "rc-progress": "^3.5.1",
     "react": "^18.2",
+    "react-countdown": "^2.3.5",
     "react-dom": "^18.2",
     "react-fontawesome": "^1.7.1",
     "react-footer": "^0.0.0",
@@ -35,6 +36,8 @@
     "@types/react": "18.2.22",
     "eslint": "8.11.0",
     "eslint-config-next": "^13",
+    "favicons": "^7.1.4",
+    "favicons-webpack-plugin": "^6.0.1",
     "typescript": "5.2.2"
   }
 }
