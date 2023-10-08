@@ -1,10 +1,5 @@
 <p align="center">
-  <a >
-    <picture>
-      <source>
-      <img src="https://i.ibb.co/JB9nbZC/banner-PMT.png">
-    </picture>
-  </a>
+  <a href="https://ibb.co/7YqvThb"><img src="https://i.ibb.co/qyvB46x/banner-PMT.png" alt="banner-PMT" border="0"></a>
 </p>
 
 
