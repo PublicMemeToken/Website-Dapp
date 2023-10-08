@@ -2,7 +2,7 @@
   <a >
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/m6H2WKR/PMT-1280x640-1.png">
-      <img src="https://i.ibb.co/m6H2WKR/PMT-1280x640-1.png" height="256">
+      <img src="[https://i.ibb.co/m6H2WKR/PMT-1280x640-1.png](https://i.ibb.co/JB9nbZC/banner-PMT.png)" height="256">
     </picture>
   </a>
 </p>
