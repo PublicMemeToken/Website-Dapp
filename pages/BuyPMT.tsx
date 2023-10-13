@@ -256,7 +256,7 @@ import {
             <h1 className={styles.title}>Public Meme Token </h1>
             <h3 className={styles.title1}>Pre-Sale Phase 1 starts soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 1 of 30  {" "}
+              Pre-sale Phase 1 of 10  {" "}
               
               
               
