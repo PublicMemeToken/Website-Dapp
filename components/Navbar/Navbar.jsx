@@ -13,8 +13,8 @@ import {
   bloctoWallet,
   magicLink,
   frameWallet,
-  darkTheme,
   rainbowWallet,
+  darkTheme,
   phantomWallet, useAddress } from "@thirdweb-dev/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -61,12 +61,12 @@ export function Navbar() {
 
         <div className={styles.navRight}>
         
-          <div className={styles.navConnect}>
+          
             
             
-          <ConnectWallet
-        theme={darkTheme({
-          accentText: "",
+        <ConnectWallet
+        theme={({
+          accentText: "#ffffff",
           modalBg: "#4B2D0DDB",
           dropdownBg: "#4B2D0DDB",
           borderColor: "#ffcc94",
@@ -87,7 +87,7 @@ export function Navbar() {
         }
       />
       
-          </div>
+          
           
         </div>
 
