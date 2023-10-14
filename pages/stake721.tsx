@@ -17,7 +17,7 @@ import {
   nftDropContractAddress,
   stakingContractAddress,
   tokenContractAddress,
-} from "../const/contractAddresses";
+} from "../const/contractAddresses1";
 import styles from "../styles/stakeNFT.module.css";
 import Image from "next/image";
 
