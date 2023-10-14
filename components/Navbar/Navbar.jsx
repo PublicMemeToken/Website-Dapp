@@ -46,7 +46,7 @@ export function Navbar() {
               Docs
             </Link>
             
-            <Link href="/stakeNFT" className={styles.link}>
+            <Link href="/stake" className={styles.link}>
               Stake NFT
             </Link>
             
