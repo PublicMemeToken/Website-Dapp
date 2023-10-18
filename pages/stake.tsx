@@ -20,7 +20,7 @@ const stake1: NextPage = () => {
           
           <h2 className={styles.selectBoxTitle}>  "???? x PMT" NFT</h2>
           <p className={styles.selectBoxDescription}>
-             <b>35% APY</b>
+             <b>???% APY</b>
           </p>
           <p className={styles.selectBoxDescription1}>
              <b>ERC721</b>
@@ -34,12 +34,12 @@ const stake1: NextPage = () => {
         >
           
           
-          <h2 className={styles.selectBoxTitle}>Loylty NFT</h2>
+          <h2 className={styles.selectBoxTitle}>??? Loylty NFT</h2>
           <p className={styles.selectBoxDescription}>
-            <b>45% APY</b>
+            <b>???% APY</b>
           </p>
           <p className={styles.selectBoxDescription1}>
-             <b>ERC1155</b>
+             <b>ERC721</b>
           </p>
         </div>
       </div>
