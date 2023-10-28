@@ -112,7 +112,7 @@ a {
 }
 .item1:hover {
   text-decoration: none;
-  color: #9d4afa;
+  color: #fbbe7c;
 }
 .item1:focus {
   outline: 0;
@@ -145,7 +145,7 @@ a {
   max-width: 50px;
 }
 .item4:hover {
-  background-color: #7e1af9;
+  background-color: #fbbe7c;
   transition: 0.4s;
 }
 .item5 {
@@ -167,7 +167,7 @@ a {
   align-items: center;
 }
 .item6:hover {
-  background: linear-gradient(#fe3a7bdb  30%, #f0bb0d  75%);
+  background: linear-gradient(#5d3912  30%, #fbbe7c  75%);
   transition: 0.4s;
 }
 
