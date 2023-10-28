@@ -59,7 +59,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faBook} />
                 </a>
                 <a
-                    href="https://www.instagram.com/public_meme_token/"
+                    href="https://www.publicmemetoken.xyz/"
                     target="_blank"
                     className="item6"
                 >
