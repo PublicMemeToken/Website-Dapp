@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
                 
                 <a
-                    href="https://telegram.com"
+                    href="https://t.me/Publicmemetoken_GroupChat"
                     target="_blank"
                     className="item3"
                 >
