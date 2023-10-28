@@ -244,7 +244,7 @@ import {
             {contractMetadata?.image && (
               
               <img
-                src={contractMetadata?.image}
+                src="/logo.png"
                 alt={contractMetadata?.name!}
                 width={300}
                 height={100}
@@ -313,7 +313,7 @@ import {
       </div>
       <h2 className={styles.container1}>
         <p className={styles.text}>
-      If you hold $5,000 PMT for 4 weeks or are one of the first 1000 pre-sale buyers with at least $5,000 PMT, you will be among the first lucky ones to be rewarded with exclusive LOYALTY NFTs. Get ready for a truly remarkable statement of ours Appreciation captured!  {" "}
+      If you are one of the first 1000 pre-sale buyers with at least 10,000 $PMT, you will be among the first lucky ones to be rewarded with exclusive LOYALTY NFTs for FREE. Get ready for a truly remarkable statement of ours Appreciation captured!  {" "}
       </p> 
               
               
