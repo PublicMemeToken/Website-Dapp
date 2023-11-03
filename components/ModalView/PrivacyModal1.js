@@ -11,7 +11,7 @@ const PrivacyModal = (props) => {
         <p >
         <br></br>​<br></br>
         PHASE 1: FOUNDATION​<br></br>​<br></br>
-🚀 Smart Contract Development:Secure and audited smart contract for PMT token to ensure transparency and trust.
+🚀 Smart Contract Development:Secure and audited smart contract for PMT token to ensure transparency and trust.✅
 ​<br></br>​<br></br>
 🌐 Community Building: Telegram,  Twitter - Get ready for the hype train with a strong and engaged PMT community.
 ​​<br></br>​<br></br>
