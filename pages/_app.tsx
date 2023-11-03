@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
       activeChain={activeChain}
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       supportedWallets={[
-        metamaskWallet(),
+        metamaskWallet({ recommended: true }),
         coinbaseWallet(),
         walletConnect(),
         localWallet(),
