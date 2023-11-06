@@ -219,9 +219,7 @@ import {
     
     return (
       <div >
-       <br></br>
-        <br></br>
-        <br></br>
+       <div className={styles.container2}>
         <Image  style={{ margin:25  }}
               src="/phases.png"
               width={420}
@@ -230,6 +228,7 @@ import {
               quality={100}
               
             />
+        </div>
       <div className={styles.container}>
         
         {(claimConditions.data &&
