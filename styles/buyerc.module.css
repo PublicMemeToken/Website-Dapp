@@ -98,6 +98,16 @@
   margin-left: 0.6rem;
   width: 99%;
   }
+
+.container2 {
+    color: #000000;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    padding: 24px;
+    margin-left: 0.6rem;
+    width: 99%;
+    }
   
   .timerText{
     font-size: 1.5em;
