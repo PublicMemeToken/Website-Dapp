@@ -18,7 +18,7 @@ const stake1: NextPage = () => {
         >
          
           
-          <h2 className={styles.selectBoxTitle}>  "Rocketbyz x PMT" NFT</h2>
+          <h2 className={styles.selectBoxTitle}>  "Rocketbyz x PMT" RWA NFT</h2>
           <p className={styles.selectBoxDescription}>
              <b>???% APY</b>
           </p>
