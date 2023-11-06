@@ -73,7 +73,7 @@
   }
   
   .container {
-    margin-top: 156px;
+    margin-top: 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +93,7 @@
   color: #000000;
   background-color: #ffffff81;
   border-radius: 12px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 24px;
   margin-left: 0.6rem;
   width: 99%;
