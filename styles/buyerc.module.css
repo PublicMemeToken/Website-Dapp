@@ -127,6 +127,9 @@
       align-items: center;
       justify-content: center;
   }
+.txt1{
+    color: #000000;
+  }
   .dog{
     margin-top: 5px;
     display: flex;
