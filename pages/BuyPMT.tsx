@@ -314,6 +314,9 @@ import {
             
             {buttonText}
           </Web3Button>
+            <div className={styles.txt1}>
+          100.000 $PMT MAX per Wallet
+          </div>
         </div>
         
             
