@@ -51,6 +51,13 @@ const Home: NextPage = () => {
       <Image src="/SFP.svg" height="45" width="200" alt="SafePal" />
     </div>
   ); 
+
+  const Banner3 = (
+    <div className={styles.slide3} role="button"
+    onClick={() => router.push(`https://www.instagram.com/rocketbyz/`)}>
+      <Image src="/Rocketbyz.png" height="40" width="200" alt="Rocketbyz" />
+    </div>
+  ); 
   
   const Banner7 = (
     <div className={styles.slide7} role="button"
@@ -125,6 +132,7 @@ const Home: NextPage = () => {
             <div className={styles.slideTrack} style={{ marginTop:90 }}>
         {Banner1}
         {Banner2}
+        {Banner3}
         {Banner4}
         {Banner5}
         {Banner6}
@@ -132,6 +140,7 @@ const Home: NextPage = () => {
         {Banner9}
         {Banner1}
         {Banner2}
+        {Banner3}
         {Banner4}
         {Banner5}
         {Banner6}
