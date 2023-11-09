@@ -44,6 +44,13 @@ const Home: NextPage = () => {
       <Image src="/walletconnect.png" height="30" width="208" alt="walletconnect" />
     </div>
   );
+
+  const Banner1 = (
+    <div className={styles.slide7} role="button"
+    onClick={() => router.push(`https://www.safepal.com/`)}>
+      <Image src="/SFP.svg" height="45" width="200" alt="SafePal" />
+    </div>
+  ); 
   
   const Banner7 = (
     <div className={styles.slide7} role="button"
@@ -116,13 +123,14 @@ const Home: NextPage = () => {
         <br></br>
               <div className={styles.slider}>
             <div className={styles.slideTrack} style={{ marginTop:90 }}>
-        
+        {Banner1}
         {Banner2}
         {Banner4}
         {Banner5}
         {Banner6}
         {Banner7}
         {Banner9}
+        {Banner1}
         {Banner2}
         {Banner4}
         {Banner5}
