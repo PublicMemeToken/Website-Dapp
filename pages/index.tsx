@@ -65,6 +65,13 @@ const Home: NextPage = () => {
       <Image src="/Pancakeswap.svg" height="38" width="250" alt="PanecakeSwap" />
     </div>
   ); 
+
+  const Banner8 = (
+    <div className={styles.slide} role="button"
+    onClick={() => router.push(`https://docs.pinksale.finance/`)}>
+      <Image src="/pinksale.png" height="50" width="250" alt="Pinksale" />
+    </div>
+  );
   
   
   return (
@@ -137,6 +144,7 @@ const Home: NextPage = () => {
         {Banner5}
         {Banner6}
         {Banner7}
+        {Banner8}
         {Banner9}
         {Banner1}
         {Banner2}
@@ -145,6 +153,7 @@ const Home: NextPage = () => {
         {Banner5}
         {Banner6}
         {Banner7}
+        {Banner8}
         {Banner9}
         
       </div>
