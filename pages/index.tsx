@@ -28,7 +28,7 @@ const Home: NextPage = () => {
   const Banner2 = (
     <div className={styles.slide2} role="button"
     onClick={() => router.push(`https://www.bnbchain.org/en/`)}>
-      <Image src="/binance.svg" height="38" width="208" alt="BinanceSmartChain" />
+      <Image src="/bsc.png" height="38" width="208" alt="BinanceSmartChain" />
     </div>
   );
   
