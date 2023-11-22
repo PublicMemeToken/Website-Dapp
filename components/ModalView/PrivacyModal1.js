@@ -28,7 +28,7 @@ const PrivacyModal = (props) => {
           
         }}
         className="" onClick={() => setOpen(true)}>
-            Phase 1 
+            Roadmap  
             </p>
             <Modal open={open} onClose={() => setOpen(false)} center>
                 
