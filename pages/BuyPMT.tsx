@@ -263,9 +263,9 @@ import {
             )}
   
             <h1 className={styles.title}>Public Meme Token </h1>
-            <h3 className={styles.title1}>Pre-Sale Phase 2 ends soon! </h3>
+            <h3 className={styles.title1}>Pre-Sale Phase 3 ends soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 2 of 10  {" "}
+              Pre-sale Phase 3 of 10  {" "}
               
               
               
@@ -331,7 +331,7 @@ import {
               
             </h2>
             <h1 style={{ color:"#fbbe7c"  }}>PHASE 2 ENDS IN</h1>
-           <Countdown date={`${year}-11-22T13:00:00`} />
+           <Countdown date={`${year}-11-29T13:00:00`} />
       <div className={styles.dog}>
       
       <Image  style={{ margin:25  }}
