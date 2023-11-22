@@ -89,8 +89,8 @@ const Home: NextPage = () => {
               
             />
           </div>
-          <h1 style={{ color:"#fbbe7c" }}>PHASE 2 ENDS IN</h1>
-           <Countdown date={`${year}-11-22T13:00:00`} />
+          <h1 style={{ color:"#fbbe7c" }}>PHASE 3 ENDS IN</h1>
+           <Countdown date={`${year}-11-29T13:00:00`} />
                    
               <p className={styles.heroSubtitle}>
                 <Link
