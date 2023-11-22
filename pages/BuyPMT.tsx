@@ -221,10 +221,10 @@ import {
       <div >
        <div className={styles.container2}>
         <Image  style={{ margin:25  }}
-              src="/phases2.png"
+              src="/phases3.png"
               width={420}
               height={380}
-              alt="Home"
+              alt="Phase3"
               quality={100}
               
             />
