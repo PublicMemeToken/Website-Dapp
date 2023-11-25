@@ -42,8 +42,9 @@ export function Navbar() {
 
           <div className={styles.navMiddle}>
             
-          <Link href="https://docs.publicmemetoken.xyz/" target="_blank" className={styles.link}>
-              Docs
+          <Link href="/" target="_blank" className={styles.link}>
+              Market
+              place
             </Link>
             
             <Link href="/stake" className={styles.link}>
