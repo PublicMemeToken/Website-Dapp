@@ -79,47 +79,54 @@ const Home: NextPage = () => {
       
         
           
-          <div className={styles.heroAssetFrame}>
+          <div className={styles.heroAssetFrame}style={{ marginTop:35 }}>
             <Image
-              src="/logo1.png"
-              width={320}
-              height={320}
+              src="/text.png"
+              width={300}
+              height={100}
               alt="Home"
               quality={100}
               
             />
+            
           </div>
-          <h1 style={{ color:"#fbbe7c" }}>PHASE 3 ENDS IN</h1>
+          
+          <div className={styles.heroAssetFrame}style={{ marginTop:-15 }}>
+            <Image
+              src="/back1.png"
+              width={360}
+              height={360}
+              alt="Home"
+              quality={100}
+              
+            />
+            
+          </div>
+          <div className={styles.heroAssetFrame}style={{ marginTop:-15 }}>
+            <Image
+              src="/text2.png"
+              width={340}
+              height={120}
+              alt="Home"
+              quality={100}
+              
+            />
+            
+          </div>
+          <br></br>
+          <br></br>
+          <h1 style={{ color:"#fbbe7c"  }} >PHASE 3 ENDS IN</h1>
            <Countdown date={`${year}-11-29T13:00:00`} />
                    
-              <p className={styles.heroSubtitle}>
-                <Link
-                  className={styles.link}
-                  href="https://www.x.com/publicmemetoken"
-                  target="_blank"
-                >
-                  Public MEME Token 
-                </Link>{" "}
-                <br></br>is designed to integrate the world of memes and digital art, providing a platform where users can not only engage with their favorite artists but also stake their loyalty NFTs (Non-Fungible Tokens) to earn PMT tokens.
-
-              </p>
+              
               <br></br>
-              
-              <p className={styles.heroSubtitle1}>
-                              
-                  <b>Loyalty NFTs</b><br></br> are special tokens created by renowned and talented artists who have contributed their exceptional artistry to the PMT ecosystem. These NFTs are not only valuable pieces of digital art but also function as a symbol of loyalty and support for the PMT community.
-
-              </p>
               <br></br>
+              <br></br>
+              <br></br>
+             
               
-              <p className={styles.heroSubtitle1}>
-                              
-                  <b>Staking NFTs</b><br></br> is an opportunity to earn PMT tokens as a reward.  This incentivizes users to hold onto these unique artworks and participate actively in the PMT ecosystem.The more loyalty NFTs a community member stakes, the greater the potential rewards they can earn.
-
-              </p>
-              
-              <Image style={{ marginTop:-15 }}
-              src="/logo.png"
+              <Image style={{ marginTop:15 }}
+              src="/pmt_big.png"
               width={320}
               height={320}
               alt="Home"
@@ -134,6 +141,11 @@ const Home: NextPage = () => {
             
         </div>
         
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <br></br>
               <div className={styles.slider}>
             <div className={styles.slideTrack} style={{ marginTop:90 }}>
