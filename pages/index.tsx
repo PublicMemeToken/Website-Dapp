@@ -135,6 +135,13 @@ const Home: NextPage = () => {
             />
             <br></br>
             <br></br>
+            <br></br>
+            <div className={styles.button1} 
+    onClick={() => router.push(`https://whitepaper.publicmemetoken.xyz/`)} >
+      White Paper
+    </div>
+            
+            <br></br>
             <div className={styles.button}>
             
             <PrivacyModal1 />
@@ -143,8 +150,7 @@ const Home: NextPage = () => {
         
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
+        
         <br></br>
         <br></br>
               <div className={styles.slider}>
