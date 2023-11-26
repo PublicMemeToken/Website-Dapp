@@ -33,6 +33,25 @@
   transition: all 0.15s ease-in-out 0s;
 }
 
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: transparent !important;
+  color: rgb(243, 246, 249) !important;
+  background: radial-gradient(#23382D  25%, #fbbe7c  100%) !important;
+  height: 50px;
+  width: 220px;
+  border: 1px solid transparent;
+  border-radius: 36px !important;
+  padding: 6px 16px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: medium;
+  transition: all 0.15s ease-in-out 0s;
+  cursor: pointer;
+}
+
 .button:hover {
   
   background: rgb(64, 156, 255);
