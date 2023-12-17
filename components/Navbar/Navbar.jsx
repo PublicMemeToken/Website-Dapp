@@ -77,6 +77,7 @@ export function Navbar() {
         modalSize={"wide"}
         welcomeScreen={{
           title: "Public Meme Token | $PMT",
+          subtitle: "Where Meme Meets RWA's",
           img: {
             src: "https://i.ibb.co/cbxC2h7/PMT-Frog-Dog.png",
             width: 150,
