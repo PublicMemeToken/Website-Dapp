@@ -19,6 +19,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import { Binance } from "@thirdweb-dev/chains";
 
 
 
@@ -87,6 +88,18 @@ export function Navbar() {
         modalTitleIconUrl={
           "https://i.ibb.co/cbxC2h7/PMT-Frog-Dog.png"
         }
+          supportedTokens={{
+          
+          [Binance.chainId]: [
+            {
+              address: "0x68Ae2F202799be2008c89e2100257e66F77DA1f3",
+              name: "Public Meme Token",
+              symbol: "PMT",
+              icon: "https://i.ibb.co/9wh8qpy/favicon-apple-180x189.png",
+            },
+            // ...etc
+          ],
+        }}
       />
       
           
