@@ -5,10 +5,7 @@ import { ThirdwebProvider,
   walletConnect,
   safeWallet,
   localWallet,
-  paperWallet,
-  trustWallet,
-  embeddedWallet,
-  rainbowWallet  } from "@thirdweb-dev/react";
+  trustWallet  } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
@@ -31,16 +28,6 @@ function MyApp({ Component, pageProps }) {
         walletConnect(),
         localWallet(),
         trustWallet(),
-        embeddedWallet({
-          auth: {
-            options: [
-              "email",
-              "google",
-              "facebook",
-              "apple",
-            ],
-          },
-        }),
       ]}
       
     >
