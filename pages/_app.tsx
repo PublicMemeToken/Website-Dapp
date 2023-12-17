@@ -26,9 +26,13 @@ function MyApp({ Component, pageProps }) {
       supportedWallets={[
         metamaskWallet({ recommended: true }),
         coinbaseWallet(),
-        walletConnect(),
+        walletConnect({
+          projectId: "5aa253d2624bbaea8b10c5942f7c37e4",
+        }),
         localWallet(),
-        trustWallet(),
+        trustWallet({
+          projectId: "5aa253d2624bbaea8b10c5942f7c37e4",
+        }),
         
       ]}
       
