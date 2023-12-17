@@ -84,7 +84,7 @@ export function Navbar() {
           },
         }}
         modalTitleIconUrl={
-          "https://i.ibb.co/5vy5cXF/favicon.png"
+          "https://i.ibb.co/cbxC2h7/PMT-Frog-Dog.png"
         }
       />
       
