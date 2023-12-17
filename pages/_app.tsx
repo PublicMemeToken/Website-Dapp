@@ -31,8 +31,7 @@ function MyApp({ Component, pageProps }) {
         walletConnect(),
         localWallet(),
         trustWallet(),
-        frameWallet(),
-        rainbowWallet(),
+        
       ]}
       
     >
