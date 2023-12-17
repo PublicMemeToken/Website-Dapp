@@ -4,6 +4,7 @@ import { ThirdwebProvider,
   coinbaseWallet,
   walletConnect,
   safeWallet,
+  embeddedWallet,
   localWallet,
   trustWallet  } from "@thirdweb-dev/react";
 import "../styles/globals.css";
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }) {
         walletConnect(),
         localWallet(),
         trustWallet(),
+        embeddedWallet(),
       ]}
       
     >
