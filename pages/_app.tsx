@@ -26,13 +26,25 @@ function MyApp({ Component, pageProps }) {
       activeChain={activeChain}
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       supportedWallets={[
-        metamaskWallet({ recommended: true }),
+        metamaskWallet({
+          projectId: "5aa253d2624bbaea8b10c5942f7c37e4",
+        }),
         coinbaseWallet(),
         walletConnect(),
         localWallet(),
-        trustWallet(),
-        
-      ]}
+        embeddedWallet({
+          auth: {
+            options: [
+              "email",
+              "google",
+              "facebook",
+              "apple",
+            ],
+          },
+        }),
+        trustWallet({
+          projectId: "5aa253d2624bbaea8b10c5942f7c37e4",}),
+      ]} 
       
     >
       <NextNProgress
