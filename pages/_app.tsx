@@ -7,7 +7,7 @@ import { ThirdwebProvider,
   localWallet,
   paperWallet,
   trustWallet,
-  frameWallet,
+  embeddedWallet,
   rainbowWallet  } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import { Navbar } from "../components/Navbar/Navbar";
@@ -31,7 +31,16 @@ function MyApp({ Component, pageProps }) {
         walletConnect(),
         localWallet(),
         trustWallet(),
-        
+        embeddedWallet({
+          auth: {
+            options: [
+              "email",
+              "google",
+              "facebook",
+              "apple",
+            ],
+          },
+        }),
       ]}
       
     >
