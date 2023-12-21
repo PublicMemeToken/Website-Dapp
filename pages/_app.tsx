@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         metamaskWallet({ recommended: true }),
         coinbaseWallet(),
         walletConnect({
-          projectId: "b5706c7e327fe6af81cffcbe698214483f23dd34ad69fcc261ecb4e2219520be",
+          projectId: "5aa253d2624bbaea8b10c5942f7c37e4",
         }),
         localWallet(),
         trustWallet({
