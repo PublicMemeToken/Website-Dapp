@@ -9,7 +9,7 @@ import Countdown from "../components/countdown"
 const Home: NextPage = () => {
   const currentDate = new Date();
     const year =
-      currentDate.getMonth() === 11 && currentDate.getDate() > 23
+      currentDate.getMonth() === 11 && currentDate.getDate() > 24
         ? currentDate.getFullYear() + 1
         : currentDate.getFullYear();
   const router = useRouter();
@@ -115,8 +115,8 @@ const Home: NextPage = () => {
           </div>
           <br></br>
           <br></br>
-          <h1 style={{ color:"#fbbe7c"  }} >PHASE 7 ENDS IN</h1>
-           <Countdown date={`${year}-12-27T13:00:00`} />
+          <h1 style={{ color:"#fbbe7c"  }} >PHASE 8 ENDS IN</h1>
+           <Countdown date={`${year}-01-03T13:00:00`} />
                    
               
               <br></br>
