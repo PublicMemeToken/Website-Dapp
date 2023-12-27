@@ -21,7 +21,7 @@ import {
   
   const currentDate = new Date();
     const year =
-      currentDate.getMonth() === 11 && currentDate.getDate() > 23
+      currentDate.getMonth() === 11 && currentDate.getDate() > 24
         ? currentDate.getFullYear() + 1
         : currentDate.getFullYear();
    
@@ -221,7 +221,7 @@ import {
       <div >
        <div className={styles.container2}>
         <Image  style={{ margin:25  }}
-              src="/phases7.png"
+              src="/phases8.png"
               width={420}
               height={380}
               alt="Phase7"
@@ -263,21 +263,21 @@ import {
             )}
   
             <h1 className={styles.title}>Public Meme Token </h1>
-            <h3 className={styles.title1}>Pre-Sale Phase 7 ends soon! </h3>
+            <h3 className={styles.title1}>Pre-Sale Phase 8 ends soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 7 of 10  {" "}
+              Pre-sale Phase 8 of 10  {" "}
               
               
               
             </p>
             
             <p className={styles.explain}>
-            <span >Sold </span> 42%
+            <span >Sold </span> 0%
               
             </p>
            
 
-            <Line  percent={42} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
+            <Line  percent={0} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
             
           </>
           
@@ -331,7 +331,7 @@ import {
               
             </h2>
             <h1 style={{ color:"#fbbe7c"  }}>PHASE 7 ENDS IN</h1>
-           <Countdown date={`${year}-12-27T13:00:00`} />
+           <Countdown date={`${year}-01-03T13:00:00`} />
       <div className={styles.dog}>
       
       <Image  style={{ margin:25  }}
