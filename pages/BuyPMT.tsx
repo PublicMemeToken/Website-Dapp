@@ -330,7 +330,7 @@ import {
               
               
             </h2>
-            <h1 style={{ color:"#fbbe7c"  }}>PHASE 7 ENDS IN</h1>
+            <h1 style={{ color:"#fbbe7c"  }}>PHASE 8 ENDS IN</h1>
            <Countdown date={`${year}-01-03T13:00:00`} />
       <div className={styles.dog}>
       
