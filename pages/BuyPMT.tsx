@@ -221,7 +221,7 @@ import {
       <div >
        <div className={styles.container2}>
         <Image  style={{ margin:25  }}
-              src="/phases8.png"
+              src="/phases9.png"
               width={420}
               height={380}
               alt="Phase7"
@@ -263,21 +263,21 @@ import {
             )}
   
             <h1 className={styles.title}>Public Meme Token </h1>
-            <h3 className={styles.title1}>Pre-Sale Phase 8 ends soon! </h3>
+            <h3 className={styles.title1}>Pre-Sale Phase 9 ends soon! </h3>
             <p className={styles.explain}>
-              Pre-sale Phase 8 of 10  {" "}
+              Pre-sale Phase 9 of 10  {" "}
               
               
               
             </p>
             
             <p className={styles.explain}>
-            <span >Sold </span> 7%
+            <span >Sold </span> 0%
               
             </p>
            
 
-            <Line  percent={7} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
+            <Line  percent={0} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
             
           </>
           
@@ -330,8 +330,8 @@ import {
               
               
             </h2>
-            <h1 style={{ color:"#fbbe7c"  }}>PHASE 8 ENDS IN</h1>
-           <Countdown date={`${year}-01-03T13:00:00`} />
+            <h1 style={{ color:"#fbbe7c"  }}>PHASE 9 ENDS IN</h1>
+           <Countdown date={`${year}-01-10T13:00:00`} />
       <div className={styles.dog}>
       
       <Image  style={{ margin:25  }}
