@@ -272,12 +272,12 @@ import {
             </p>
             
             <p className={styles.explain}>
-            <span >Sold </span> 8%
+            <span >Sold </span> 38%
               
             </p>
            
 
-            <Line  percent={8} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
+            <Line  percent={38} strokeWidth={1} strokeColor="green" className={styles.blink_me}  trailColor="grey" trailWidth={1} />
             
           </>
           
