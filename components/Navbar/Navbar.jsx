@@ -53,8 +53,8 @@ export function Navbar() {
             </Link>
             
            
-            <Link href="/BuyPMT" className={styles.link}>
-              Buy PMT
+            <Link href="/" className={styles.link}>
+              DAO Voting
             </Link>
           
           </div>
