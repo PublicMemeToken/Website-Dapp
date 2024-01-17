@@ -115,8 +115,8 @@ const Home: NextPage = () => {
           </div>
           <br></br>
           <br></br>
-          <h1 style={{ color:"#fbbe7c"  }} >PHASE 10 ENDS IN</h1>
-           <Countdown date={`${year}-01-17T13:00:00`} />
+          <h1 style={{ color:"#fbbe7c"  }} > Pancakeswap listing in </h1>
+           <Countdown date={`${year}-01-21T13:00:00`} />
                    
               
               <br></br>
