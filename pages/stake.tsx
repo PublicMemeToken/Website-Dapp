@@ -39,7 +39,7 @@ const stake1: NextPage = () => {
             <b>???% APY</b>
           </p>
           <p className={styles.selectBoxDescription1}>
-             <b>ERC721</b>
+             <b>ERC1155</b>
           </p>
         </div>
       </div>
