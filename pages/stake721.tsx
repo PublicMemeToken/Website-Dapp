@@ -100,7 +100,7 @@ const Stake: NextPage = () => {
               <p className={styles.tokenValue}>
                 <b>
                   {!claimableRewards
-                    ? "No rewards"
+                    ? "Loading..."
                     : ethers.utils.formatUnits(claimableRewards, 18)}
                 </b>{" "}
                 {tokenBalance?.symbol}
@@ -115,7 +115,7 @@ const Stake: NextPage = () => {
           </div>
 
           <Web3Button
-            action={(contract) => contract.call("claimRewards", [0])}
+            action={(contract) => contract.call("claimRewards")}
             contractAddress={stakingContractAddress}
           >
             Claim Rewards
@@ -128,7 +128,7 @@ const Stake: NextPage = () => {
           <div className={styles.nftBoxGrid1}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
-                <NFTCard
+                <NFTCard1
                   tokenId={stakedToken.toNumber()}
                   key={stakedToken.toString()}
                 />
