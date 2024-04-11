@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Stake your "???? x PMT" NFT</h1>
+      <h1 className={styles.h1}>Stake your "Rocketbyz x PMT" RWA </h1>
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
       {!address ? (
