@@ -128,7 +128,7 @@ const Stake: NextPage = () => {
           <div className={styles.nftBoxGrid1}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
-                <NFTCard1
+                <NFTCard
                   tokenId={stakedToken.toNumber()}
                   key={stakedToken.toString()}
                 />
