@@ -65,7 +65,7 @@ const Stake: NextPage = () => {
     if (!isApproved) {
       await nftDropContract?.setApprovalForAll(stakingContractAddress, true);
     }
-    await contract?.call("stake", [id, 1]);
+    await contract?.call("stake", [[id]])
   }
 
   if (isLoading) {
