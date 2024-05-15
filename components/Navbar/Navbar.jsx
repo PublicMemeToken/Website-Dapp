@@ -56,7 +56,12 @@ export function Navbar() {
             <Link href="/" className={styles.link}>
               DAO Voting
             </Link>
-          
+
+
+            <Link href="/" className={styles.link}>
+              Claim
+            </Link>
+            
           </div>
           
         </div>
