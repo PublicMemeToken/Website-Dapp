@@ -230,7 +230,8 @@ const Claim = () => {
               width={200}
               height={200}
               style={{ objectFit: "contain", margin: "2px" }}
-              
+              alt="Home"
+              quality={100}
             />
           )}
 
