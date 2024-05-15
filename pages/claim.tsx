@@ -229,7 +229,7 @@ const Claim = () => {
               src="/LogoBox.png"
               width={200}
               height={200}
-              style={{ objectFit: "contain", margin: "2px" }}
+              style={{ objectFit: "contain", margin: "6px" }}
               alt="Home"
               quality={100}
             />
