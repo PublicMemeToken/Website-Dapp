@@ -8,7 +8,7 @@ import {
   useContractMetadata,
   useTokenSupply,
   Web3Button,
-} from "@thirdweb-dev/react";
+} from "@thirdweb-dev/react"; 
 import { BigNumber, utils } from "ethers";
 import Image from "next/image";
 import { useMemo, useState } from "react";
