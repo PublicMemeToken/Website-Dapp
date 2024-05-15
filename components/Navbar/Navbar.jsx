@@ -42,7 +42,9 @@ export function Navbar() {
           
 
           <div className={styles.navMiddle}>
-            
+            <Link href="/" className={styles.link}>
+              Claim
+            </Link>
           <Link href="https://market.publicmemetoken.xyz/"  className={styles.link}>
               Market
               place
@@ -58,9 +60,7 @@ export function Navbar() {
             </Link>
 
 
-            <Link href="/" className={styles.link}>
-              Claim
-            </Link>
+            
             
           </div>
           
