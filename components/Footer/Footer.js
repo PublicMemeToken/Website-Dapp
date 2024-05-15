@@ -45,7 +45,7 @@ const Footer = () => {
                 </a>
                
                 <a
-                    href="https://twitter.com/publicmemetoken"
+                    href="https://twitter.com/pm_token"
                     target="_blank"
                     className="item5"
                 >
