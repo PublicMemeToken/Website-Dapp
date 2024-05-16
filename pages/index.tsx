@@ -113,16 +113,7 @@ const Home: NextPage = () => {
             />
             
           </div>
-          <br></br>
-          <br></br>
-          <h1 style={{ color:"#fbbe7c"  }} > Pancakeswap listing in </h1>
-           <Countdown date={`${year}-01-21T13:00:00`} />
-                   
-              
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+          
              
               
               <Image style={{ marginTop:15 }}
