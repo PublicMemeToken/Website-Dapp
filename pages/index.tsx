@@ -13,7 +13,12 @@ const Home: NextPage = () => {
         ? currentDate.getFullYear() + 1
         : currentDate.getFullYear();
   const router = useRouter();
-  
+  const Banner9 = (
+    <div className={styles.slide} role="button"
+    onClick={() => router.push(`https://bscscan.com/`)} >
+      <Image src="/bscscan.svg" height="38" width="258" alt="bscscan" />
+    </div>
+  );
   const Banner6 = (
     <div className={styles.slide1} role="button"
     onClick={() => router.push(`https://www.coinbase.com/de/wallet`)}>
@@ -63,8 +68,8 @@ const Home: NextPage = () => {
 
   const Banner8 = (
     <div className={styles.slide} role="button"
-    onClick={() => router.push(`https://bscscan.com/`)} >
-      <Image src="/bscscan.svg" height="38" width="258" alt="bscscan" />
+    onClick={() => router.push(`https://docs.pinksale.finance/`)}>
+      <Image src="/pinksale.png" height="50" width="250" alt="Pinksale" />
     </div>
   );
   
@@ -108,7 +113,16 @@ const Home: NextPage = () => {
             />
             
           </div>
-          
+          <br></br>
+          <br></br>
+          <h1 style={{ color:"#fbbe7c"  }} > Pancakeswap listing in </h1>
+           <Countdown date={`${year}-01-21T13:00:00`} />
+                   
+              
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
              
               
               <Image style={{ marginTop:15 }}
@@ -158,6 +172,7 @@ const Home: NextPage = () => {
         {Banner6}
         {Banner7}
         {Banner8}
+        {Banner9}
         
       </div>
       
