@@ -226,7 +226,7 @@ const Claim = () => {
         <>
           {contractMetadata?.image && (
             <Image
-              src="/LogoBox.png"
+              src="/staking_logo.png"
               width={200}
               height={200}
               style={{ objectFit: "contain", margin: "6px" }}
