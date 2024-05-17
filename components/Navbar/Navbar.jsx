@@ -42,7 +42,7 @@ export function Navbar() {
           
 
           <div className={styles.navMiddle}>
-            <Link href="/claim" className={styles.link}>
+            <Link href="https://claim.publicmemetoken.xyz/" className={styles.link}>
               Claim
             </Link>
           <Link href="https://market.publicmemetoken.xyz/"  className={styles.link}>
