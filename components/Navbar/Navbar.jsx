@@ -45,7 +45,7 @@ export function Navbar() {
             <Link href="https://claim.publicmemetoken.xyz/" className={styles.link}>
               Claim
             </Link>
-          <Link href="https://market.publicmemetoken.xyz/"  className={styles.link}>
+          <Link href="https://market.publicmasterpiece.com/"  className={styles.link}>
               Market
               place
             </Link>
