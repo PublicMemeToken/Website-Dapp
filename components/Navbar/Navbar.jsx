@@ -55,7 +55,7 @@ export function Navbar() {
             </Link>
             
            
-            <Link href="/" className={styles.link}>
+            <Link href="https://dao.publicmasterpiece.com/" className={styles.link}>
               DAO Voting
             </Link>
 
